@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Buscador de matrículas</h1>
+        <form>
+          <label for="matricula">Matrícula:</label>
+          <input type="text" id="matricula" name="matricula">
+          <button type="submit" id="buscar">Buscar</button>
+        </form>
+      
+        <div class="matriculas">
+          <h2>Matrículas disponibles</h2>
+          <ul>
+            <li>1234ABC</li>
+            <li>5678DEF</li>
+            <li>9012GHI</li>
+            <li>7248LFS</li>
+          </ul>
+        </div>
+      
+        <div class="table-container">
+          <table id="tabla-matriculas" class="table">
+            <thead>
+              <tr>
+                <th>Matrícula</th>
+                <th>Modelo</th>
+                <th>Propietario</th>
+                <th>Multas</th>
+              </tr>
+            </thead>
+            <tbody id="tablados">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
